@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: -9px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 18px;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.all-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar--hero {
+    background-color: #1F2947;
+}
+
+.navbar {
+    background-color: #1F2947;
+    height: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    background-color: #1F2947;
+    max-width: 1000px;
+    height: 225px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    padding: 15px;
+    display: flex;
+    gap: 56px;
+}
+
+.hero-content {
+    flex: 1 1 0;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#hero-txt {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px
+}
+
+.hero-img {
+    background-color: rgb(148, 148, 148);
+    color: rgb(230, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.information {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 45px auto;
+
+}
+
+.cards-container {
+    max-width: 900px;
+    text-align:center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 0 75px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex: 1 1 180px;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.card-txt {
+    max-width: 180px;
+}
+
+.signup,
+.qoute,
+.footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
